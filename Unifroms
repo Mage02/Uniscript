@@ -1,28 +1,28 @@
 local Teams = game:GetService('Teams')
 local Players = game:GetService('Players')
-local c1 = 0
-local cc1 = 0
-local ccc1 = 0
-local c2 = 0
-local cc2 = 0
-local ccc2 = 0
-local c3 = 206
-local cc3 = 184
-local ccc3 = 136
+local c1 = 255
+local cc1 = 255
+local ccc1 = 255
+local c2 = 255
+local cc2 = 255
+local ccc2 = 255
+local c3 = 140
+local cc3 = 21
+local ccc3 = 21
 
-local r1 = 24
-local rr1 = 69
-local rrr1 = 59
-local r2 = 24
-local rr2 = 69
-local rrr2 = 59
+local r1 = 0
+local rr1 = 0
+local rrr1 = 0
+local r2 = 2
+local rr2 = 71
+local rrr2 = 49
 local r3 = 255
 local rr3 = 255
 local rrr3 = 255
 
 local Colors = {
     
-    ['Kansas City Cherokees'] = {
+    ['Chiacgo Bucks'] = {
 
         -- c1
         RightPants = Color3.fromRGB(c1,cc1,ccc1),
@@ -52,13 +52,13 @@ local Colors = {
         RightShoe = Color3.fromRGB(c3, cc3, ccc3),
         NumFill = Color3.fromRGB(c3,cc3,ccc3),
 
-        Texture = 'rbxassetid://13263019557',
-        TeamName = 'PURDUE',
-        HelmetIcon = 'rbxassetid://13306054755',
+        Texture = 'rbxassetid://13224571991',
+        TeamName = 'Stanford',
+        HelmetIcon = 'rbxassetid://13224554709',
         CenterIcon = 'rbxassetid://13066104873'    
     },
     
-    ['Los Angeles Rage'] = {
+    ['San Francisco Lions'] = {
                 -- c1
         RightPants = Color3.fromRGB(r1, rr1, rrr1),
         LeftPants = Color3.fromRGB(r1, rr1, rrr1),
@@ -85,10 +85,10 @@ local Colors = {
         NumStroke = Color3.fromRGB(r3, rr3, rrr3),
         NumFill = Color3.fromRGB(r3, rr3, rrr3),
 
-        Texture = 'rbxassetid://13222218071',
-        TeamName = 'SPARTANS',
-        HelmetIcon = 'rbxassetid://13222192057',
-        CenterIcon = 'rbxassetid://13066104873'    
+        Texture = 'rbxassetid://13263019518',
+        TeamName = 'Hawaii',
+        HelmetIcon = 'rbxassetid://13263010241',
+        CenterIcon = 'rbxassetid://13318999762'    
         
     }
 }
